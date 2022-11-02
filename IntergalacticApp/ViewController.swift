@@ -21,23 +21,22 @@ class ViewController: UIViewController {
         var del1 = segue.destination as!
         Secondview
         
+        if segue.identifier == "blueDwarf"
+        {
+            del1.segueDecider = "blueDwarf"
+            
+        }
         
+        else {
         
-        
-        
-        
-        
+            del1.segueDecider = "redDwarf"
+            
+            
+        }
         
         
         
     }
-    
-    
-    
-    
-    
-    
-    
     
     
     func assignbackground()
