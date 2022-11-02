@@ -16,11 +16,33 @@ class ViewController: UIViewController {
     }
     
     var starBackground = ""
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        var del1 = segue.destination as!
+        Secondview
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
     
     
     func assignbackground()
     {
-            let background = UIImage(named: "SwiftImage")
+            let background = UIImage(named: "backGround")
 
             var imageView : UIImageView!
             imageView = UIImageView(frame: view.bounds)
