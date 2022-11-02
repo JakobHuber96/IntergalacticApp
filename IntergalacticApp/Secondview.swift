@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Secondview.swift
 //  IntergalacticApp
 //
 //  Created by Huber, Jakob - Student on 11/2/22.
@@ -7,20 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Secondview: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         assignbackground()
+        // Do any additional setup after loading the view.
     }
     
-    var starBackground = ""
-    
+    var starsBackground = ""
     
     func assignbackground()
     {
-            let background = UIImage(named: "SwiftImage")
+        
+        
+        
+            let background = UIImage(named: "starsBackground")
 
             var imageView : UIImageView!
             imageView = UIImageView(frame: view.bounds)
@@ -31,13 +33,25 @@ class ViewController: UIViewController {
             view.addSubview(imageView)
             self.view.sendSubviewToBack(imageView)
     }
+  
+   
+    @IBAction func buttontochangebackground(_ sender: Any) {
+        assignbackground()
+        let background = UIImage(named:"blueDwarf1 ")
+        
+        
+    }
+    
+    
+    @IBAction func randomize(_ sender: Any) {
+        
+        
+        
+    }
     
     
     
     
+    }
     
-    
-    
-    
-}
 

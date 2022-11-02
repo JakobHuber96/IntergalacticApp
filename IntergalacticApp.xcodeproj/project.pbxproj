@@ -16,6 +16,7 @@
 		6B0A089C2912C4F4001DC128 /* IntergalacticAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A089B2912C4F4001DC128 /* IntergalacticAppTests.swift */; };
 		6B0A08A62912C4F4001DC128 /* IntergalacticAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A08A52912C4F4001DC128 /* IntergalacticAppUITests.swift */; };
 		6B0A08A82912C4F4001DC128 /* IntergalacticAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A08A72912C4F4001DC128 /* IntergalacticAppUITestsLaunchTests.swift */; };
+		6B0A08B72912CC10001DC128 /* Secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A08B62912CC10001DC128 /* Secondview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6B0A08A12912C4F4001DC128 /* IntergalacticAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0A08A52912C4F4001DC128 /* IntergalacticAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntergalacticAppUITests.swift; sourceTree = "<group>"; };
 		6B0A08A72912C4F4001DC128 /* IntergalacticAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntergalacticAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B0A08B62912CC10001DC128 /* Secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secondview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6B0A08862912C4F1001DC128 /* SceneDelegate.swift */,
 				6B0A08882912C4F1001DC128 /* ViewController.swift */,
 				6B0A088A2912C4F1001DC128 /* Main.storyboard */,
+				6B0A08B62912CC10001DC128 /* Secondview.swift */,
 				6B0A088D2912C4F3001DC128 /* Assets.xcassets */,
 				6B0A088F2912C4F3001DC128 /* LaunchScreen.storyboard */,
 				6B0A08922912C4F3001DC128 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				6B0A08892912C4F1001DC128 /* ViewController.swift in Sources */,
 				6B0A08852912C4F1001DC128 /* AppDelegate.swift in Sources */,
+				6B0A08B72912CC10001DC128 /* Secondview.swift in Sources */,
 				6B0A08872912C4F1001DC128 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
